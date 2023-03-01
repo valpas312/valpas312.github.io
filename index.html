@@ -1,125 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Front End Academy</title>
     <script defer src="index.js"></script>
-    <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/81aceb480e.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/81aceb480e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a id="acerca" href="#">Inicio</a></li>
+        <li><a href="/pages/acerca.html">Acerca de mi</a></li>
+        <li><a href="/pages/experiencia.html">Mi experiencia</a></li>
+        <li><a href="/pages/referencia.html">Contactos de referencia</a></li>
+      </ul>
+    </nav>
     <div class="informacion">
-        <div class="detalles">
-            <div>
-                <h1 id="nombre"></h1>
-                <img id="foto" src="" alt="Foto de perfil">
-            </div>
-            <div>
-                <h2>
-                    <i class="fa-solid fa-user"></i>
-                    <span id="edad"></span>
-                </h2>
-                <h3>
-                    <i class="fa-solid fa-house"></i>
-                    <span id="pais"></span>
-                </h3>
-                <h4 id="profesion"></h4>
-                <h3>
-                    <i class="fa-solid fa-inbox"></i>
-                    <span id="email"></span>
-                </h3>
-                <h3>
-                    <i class="fa-solid fa-phone"></i>
-                    <span id="telefono"></span>
-                </h3>
-            </div>
+      <div class="detalles">
+        <div>
+          <button onclick="cambiarDatos()">Cambiar datos</button>
+          <h1 id="nombre"></h1>
+          <img id="foto" src="" alt="Foto de perfil" />
         </div>
         <div>
-            <h2>
-                <i class="fa-solid fa-briefcase"></i>
-                Experiencia laboral
-            </h2>
-            <ul>
-                <p>Programador web</p>
-                <span>MadridTech</span>
-                <span>Junio de 2019-actualidad</span>
-                <li>Encargado del departamento de programacion</li>
-                <li>Jefe del departamento de investigacion</li>
-                <li>Desarrollo de mas de 12 apps para telefonos moviles</li>
-                <li>Aumento del rendimiento web en un 34%</li>
-            </ul>
+          <h2>
+            <i class="fa-solid fa-user"></i>
+            <span id="edad"></span>
+          </h2>
+          <h3>
+            <i class="fa-solid fa-house"></i>
+            <span id="pais"></span>
+          </h3>
+          <h4 id="profesion"></h4>
+          <h3>
+            <i class="fa-solid fa-inbox"></i>
+            <span id="email"></span>
+          </h3>
+          <h3>
+            <i class="fa-solid fa-phone"></i>
+            <span id="telefono"></span>
+          </h3>
+        </div>
+      </div>
+      <div>
+        <h2>
+          <i class="fa-solid fa-briefcase"></i>
+          Experiencia laboral
+        </h2>
+        <ul>
+          <p>Programador web</p>
+          <span>MadridTech</span>
+          <span>Junio de 2019-actualidad</span>
+          <li>Encargado del departamento de programacion</li>
+          <li>Jefe del departamento de investigacion</li>
+          <li>Desarrollo de mas de 12 apps para telefonos moviles</li>
+          <li>Aumento del rendimiento web en un 34%</li>
+        </ul>
 
-            <ul>
-                <p>Programador de aplicaciones</p>
-                <span>MadridInk</span>
-                <span>Julio de 2015 - mayo de 2019</span>
-                <li>Supervisor del area de desarrollo de apps</li>
-                <li>Salida al mercado e mas de 8 aplicaciones para restaurantes</li>
-                <li>Automatizacion de servicios para hoteles</li>
-                <li>Capacitacion a nuevos programadores</li>
-            </ul>
+        <ul>
+          <p>Programador de aplicaciones</p>
+          <span>MadridInk</span>
+          <span>Julio de 2015 - mayo de 2019</span>
+          <li>Supervisor del area de desarrollo de apps</li>
+          <li>Salida al mercado e mas de 8 aplicaciones para restaurantes</li>
+          <li>Automatizacion de servicios para hoteles</li>
+          <li>Capacitacion a nuevos programadores</li>
+        </ul>
 
-            <ul>
-                <p>Desarrollador de software</p>
-                <span>BioWeb</span>
-                <span>Mayo de 2014 - Junio de 2015</span>
-                <li>Creador de la pagina web de la empresa</li>
-                <li>Capacitacion de mas de 1200 clientes en un tiempo inferior a un año</li>
-                <li>Implementacion de tienda online</li>
-                <li>Automatizacion de redes sociales</li>
-            </ul>
-        </div>
-        <div>
-            <h2>
-                <i class="fa-solid fa-thumbs-up"></i>
-                Habilidades
-            </h2>
-            <ul>
-                <li>Liderazgo y gestion de equipos</li>
-                <li>Creatividad e innovacion</li>
-                <li>Persuasion, negociacion y ventas</li>
-                <li>Capacidad de colaboracion y trabajo en equipo</li>
-                <li>Adaptabilidad y flexibilidad</li>
-                <li>Productividad y gestion del tiempo</li>
-            </ul>
-        </div>
-        <div>
-            <h2>
-                <i class="fa-solid fa-graduation-cap"></i>
-                Educacion
-            </h2>
-            <ul>
-                <p>Universidad de Madrid</p>
-                <span>2010-2014</span>
-                <li>Grado en Ingenieria informatica</li>
-                <li>Grado en Ingenieria de software</li>
-                <li>Grado en Ingenieria de aplicaciones</li>
-            </ul>
-        </div>
-        <div>
-            <h2>
-                <i class="fa-solid fa-language"></i>
-                Idiomas
-            </h2>
-            <ul>
-                <li>Español - Nativo</li>
-                <li>Ingles - Avanzado</li>
-                <li>Frances - Basico</li>
-            </ul>
-        </div>
-        <div>
-            <h2>
-                <i class="fa-solid fa-check"></i>
-                Referencias
-            </h2>
-            <ul>
-                <li>Jose Luis - 11 1234-5678 - MadridTech</li>
-                <li>Angel DiMaria - 11 1234-5678 - MadridInk</li>
-                <li>Pepe Argento - 11 1234-5678 - BioWeb</li>
-            </ul>
-        </div>
+        <ul>
+          <p>Desarrollador de software</p>
+          <span>BioWeb</span>
+          <span>Mayo de 2014 - Junio de 2015</span>
+          <li>Creador de la pagina web de la empresa</li>
+          <li>
+            Capacitacion de mas de 1200 clientes en un tiempo inferior a un año
+          </li>
+          <li>Implementacion de tienda online</li>
+          <li>Automatizacion de redes sociales</li>
+        </ul>
+      </div>
+      <div>
+        <h2>
+          <i class="fa-solid fa-thumbs-up"></i>
+          Habilidades
+        </h2>
+        <ul>
+          <li>Liderazgo y gestion de equipos</li>
+          <li>Creatividad e innovacion</li>
+          <li>Persuasion, negociacion y ventas</li>
+          <li>Capacidad de colaboracion y trabajo en equipo</li>
+          <li>Adaptabilidad y flexibilidad</li>
+          <li>Productividad y gestion del tiempo</li>
+        </ul>
+      </div>
+      <div>
+        <h2>
+          <i class="fa-solid fa-graduation-cap"></i>
+          Educacion
+        </h2>
+        <ul>
+          <p>Universidad de Madrid</p>
+          <span>2010-2014</span>
+          <li>Grado en Ingenieria informatica</li>
+          <li>Grado en Ingenieria de software</li>
+          <li>Grado en Ingenieria de aplicaciones</li>
+        </ul>
+      </div>
+      <div>
+        <h2>
+          <i class="fa-solid fa-language"></i>
+          Idiomas
+        </h2>
+        <ul>
+          <li>Español - Nativo</li>
+          <li>Ingles - Avanzado</li>
+          <li>Frances - Basico</li>
+        </ul>
+      </div>
+      <div>
+        <h2>
+          <i class="fa-solid fa-check"></i>
+          Referencias
+        </h2>
+        <ul>
+          <li>Jose Luis - 11 1234-5678 - MadridTech</li>
+          <li>Angel DiMaria - 11 1234-5678 - MadridInk</li>
+          <li>Pepe Argento - 11 1234-5678 - BioWeb</li>
+        </ul>
+      </div>
     </div>
-</body>
+  </body>
 </html>
