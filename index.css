@@ -1,17 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-* {
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body {
+body{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -43,63 +43,63 @@ nav li a:hover {
   color: black;
 }
 
-.informacion {
-  background-color: #f1f1f1;
-  padding: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  width: 90vw;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+.informacion{
+    background-color: #f1f1f1;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
-.detalles {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  background-color: aquamarine;
-  padding: 1rem;
-  width: 100%;
+.detalles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    padding: 1rem;
+    width: 100%;
+  }
+
+#foto{
+    width: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px;
 }
 
-#foto {
-  width: 200px;
-  border-radius: 50%;
-  cursor: pointer;
-  padding: 10px;
+#foto:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
 }
 
-#foto:hover {
-  transition: 0.5s ease-in-out;
-  transform: scale(1.1);
+span{
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
-span {
-  font-weight: bold;
-  font-size: 1.1rem;
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
 }
 
-button {
-  background-color: #4caf50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 5px;
-  width: 100%;
-}
-
-li:hover {
+li:hover{
   transition: 0.5s ease;
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
